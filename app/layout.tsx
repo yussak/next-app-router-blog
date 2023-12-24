@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Provider from "./Provider";
 
 export const metadata = {
   title: "Create Next App",
@@ -14,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head />
+      <Provider>
       <body>
         <header>
           <h1>
@@ -26,6 +28,7 @@ export default function RootLayout({
           <small>© blog</small>
         </footer>
       </body>
+      </Provider>
     </html>
   );
 }
