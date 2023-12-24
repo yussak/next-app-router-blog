@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Provider from "./Provider";
 import Footer from "./Footer";
 import Header from "./Header";
